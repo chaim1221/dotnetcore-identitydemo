@@ -83,7 +83,7 @@ namespace IdentityDemo
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "Failed to migrate or seed database");
+                //Log.Error(ex, "Failed to migrate or seed database");
             }
             if (env.IsDevelopment())
             {
